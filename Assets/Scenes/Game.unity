@@ -357,9 +357,45 @@ PrefabInstance:
       value: SoundsManager
       objectReference: {fileID: 0}
     - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: playerWalkSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 859c5ce70b2bc47b39ce6ba47a5e982c, type: 3}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 1558141335}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: playerDiedSounds.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: 'playerDiedSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 66203740c25fd4e4981aa1e2ad63578d, type: 3}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: 'playerDiedSounds.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 9ce980fd4234e4f588128a63c2ae54fe, type: 3}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: 'playerDiedSounds.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 51c8acb7b811a41e88eccd2ae2c4c15b, type: 3}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: 'playerDiedSounds.Array.data[3]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 63d40f07dc53245858689a3f0a77ebd0, type: 3}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: 'playerDiedSounds.Array.data[4]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d1b548db173e84fe782c50d382175b50, type: 3}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: 'playerDiedSounds.Array.data[5]'
+      value: 
+      objectReference: {fileID: 8300000, guid: c0bf6e3257fa2417cae848cbed1284f6, type: 3}
+    - target: {fileID: 1673790591032152034, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
+      propertyPath: 'playerDiedSounds.Array.data[6]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 97e9e3ca5d5be46da8116c5c82c5dc98, type: 3}
     - target: {fileID: 8268392231117696801, guid: e3e85d12baaa74f00895f25e833c671d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -520,6 +556,50 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6004036359919132674, guid: d1f50a834dd64477a8f2ccab46b6f9bc, type: 3}
   m_PrefabInstance: {fileID: 617815447}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &955157104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955157106}
+  - component: {fileID: 955157105}
+  m_Layer: 0
+  m_Name: DeathArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &955157105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955157104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4b08ea34b514f1691a2393ac538aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &955157106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955157104}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074800525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,3 +1414,4 @@ SceneRoots:
   - {fileID: 5786244970991125121}
   - {fileID: 1074800529}
   - {fileID: 129346448}
+  - {fileID: 955157106}

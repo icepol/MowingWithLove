@@ -8,6 +8,7 @@ namespace pixelook
         
         [SerializeField] private AudioClip playerWalkSound;
         [SerializeField] private AudioClip playerFireSound;
+        [SerializeField] private AudioClip[] playerDiedSounds;
         
         private AudioSource _audioSource;
 
@@ -22,12 +23,14 @@ namespace pixelook
         {
             EventManager.AddListener(Events.PLAYER_WALKED_STEP, OnPlayerWalkedStep);
             EventManager.AddListener(Events.PLAYER_FIRED, OnPlayerFired);
+            EventManager.AddListener(Events.PLAYER_DIED, OnPlayerDied);
         }
 
         private void OnDisable()
         {
             EventManager.RemoveListener(Events.PLAYER_WALKED_STEP, OnPlayerWalkedStep);
             EventManager.RemoveListener(Events.PLAYER_FIRED, OnPlayerFired);
+            EventManager.RemoveListener(Events.PLAYER_DIED, OnPlayerDied);
         }
         
         private void OnPlayerWalkedStep()
@@ -40,6 +43,15 @@ namespace pixelook
         {
             if (playerFireSound && Settings.IsSfxEnabled)
                 _audioSource.PlayOneShot(playerFireSound);
+        }
+
+        private void OnPlayerDied()
+        {
+            var randomIndex = Random.Range(0, playerDiedSounds.Length);
+            var clip = playerDiedSounds[randomIndex];
+
+            if (clip && Settings.IsSfxEnabled)
+                _audioSource.PlayOneShot(clip);
         }
     }
 }
