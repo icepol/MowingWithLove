@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private float speedVariation = 0.5f;
-    
     private Enemy _enemy;
 
     private bool _isFacingLeft;
