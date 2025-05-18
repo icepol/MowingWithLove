@@ -1,0 +1,1163 @@
+fileFormatVersion: 2
+guid: c8bc36c48183948f18b75160d794847f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4773600122041589604
+    second: Sprites_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MrDeath
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2016
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6a689e5f4984d7381f84879bdce7bd
+      internalID: 86499260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrDeathWalking1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2016
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9976e0238064473cbd1948ecc730e4e
+      internalID: 19887711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrDeathWalking2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2016
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955c3f211d5c94c8fa346244c8854af4
+      internalID: 89302627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrDeathAttack
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2016
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e801dc93864c412ca6aeca1c730bada
+      internalID: 1161071325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2016
+        width: 64
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc5999708a664522ac2bbbb168fefea
+      internalID: -862607328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeBig
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1904
+        width: 64
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ba147f87db64836a1658110a94b6cc
+      internalID: -1628165047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalking1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1984
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e856b346a540e4c09b4b4edbf4346493
+      internalID: 1004374734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalking2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1984
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa269f87bf5040c58cddb46841589bd
+      internalID: 1505910132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManDie
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1984
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239ecd59e6ee449c09518b2fceb70218
+      internalID: -1923451432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1984
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11fc31b556ee49aa942ac8bd4ecc54c
+      internalID: 530366883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2000
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212abe886ee14437bc3b45fa44700ac
+      internalID: -35624586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2000
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4444b618aa44addbddbfefffc5c0d3
+      internalID: 546534165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garage
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1968
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225eb2693c88e4be4ab51719438126ee
+      internalID: 1534131385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1984
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bd3dfa2bb8b408e9f37a9782fcbe00
+      internalID: 892656907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerPlant
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1968
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79874f51912534a769aecd5cd73eaff1
+      internalID: 1015354641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerPlant2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1968
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fb91cd7a1ec42c0949a27f59c0479d
+      internalID: 892153390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerYellow
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1968
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dec826dac00449bab8eab3081f5030
+      internalID: 841116096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1936
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaafa82f1b774554838fa9438add7b9
+      internalID: 7690219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1968
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ac270fe2c0149ed8190a868f24799e
+      internalID: 934751587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBlue
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1952
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa5abbf2fd40481a8b544fbbceb8036
+      internalID: 806319357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerRed
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1952
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c91ef992bcda4e1dab6ce660441c199
+      internalID: 956128519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerWhite
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1952
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bfb671abe694acbbecd3b50009c633
+      internalID: 771755213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1952
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9125aec3ee5714c3aab930ba1821aa25
+      internalID: 1405275456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1936
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe3d4fb01ef0421080f225b6264d2fe
+      internalID: -538667500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1936
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0729e3c51eb74677bd6aebf0175f991
+      internalID: -292996113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5951cc29c93bf43cab45cb69b8c32d7e
+      internalID: -2046866692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House 1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1984
+        width: 116
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ef85be21d0843078a088d591e94eff
+      internalID: 1520183155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House 2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1984
+        width: 108
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5d98577890e4e178c734eec42077ab
+      internalID: -2020630810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House 3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1904
+        width: 73
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75028879d9b3343ba8d7c8f983b87ef6
+      internalID: -843094896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House 4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1904
+        width: 116
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57977104480274e74865aa7cb05b3f18
+      internalID: -484818566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1936
+        width: 64
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b35c4b03ba9b43f787d7a7345917e57
+      internalID: -2000079870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1px
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2047
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e74ad0279e634780ab7eaeeb004407e
+      internalID: 2035763559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CraneSmall
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1968
+        width: 67
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57819b91e5d324949be588a40d9abe73
+      internalID: 1478619202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tent
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1968
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c28ff0bd68cb4f36919cdebda9d160b
+      internalID: 1604795599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1968
+        width: 20
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff5083168ef74460a2e00f375d05b1a
+      internalID: -408652445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1968
+        width: 30
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3682a9e2f07d04528945e0fcfb61985a
+      internalID: -1978960113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 28f35feccbccf4d73ae38d159d54a29e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1px: 2035763559
+      Barel: -2046866692
+      Box1: -408652445
+      Box2: -1978960113
+      Car: -862607328
+      Cloud1: 934751587
+      Cloud2: 1405275456
+      Cloud3: -292996113
+      CraneSmall: 1478619202
+      Fire: -35624586
+      Fire2: 546534165
+      FlowerBlue: 806319357
+      FlowerPlant: 1015354641
+      FlowerPlant2: 892153390
+      FlowerRed: 956128519
+      FlowerWhite: 771755213
+      FlowerYellow: 841116096
+      Garage: 1534131385
+      Ground: -2000079870
+      House 1: 1520183155
+      House 2: -2020630810
+      House 3: -843094896
+      House 4: -484818566
+      Lamp: 7690219
+      Man: 892656907
+      ManDie: -1923451432
+      ManWalking1: 1004374734
+      ManWalking2: 1505910132
+      MrDeath: 86499260
+      MrDeathAttack: 1161071325
+      MrDeathWalking1: 19887711
+      MrDeathWalking2: 89302627
+      Soul: -538667500
+      Sprites_10: 339094357
+      Sprites_100: 991384427
+      Sprites_101: 1943826653
+      Sprites_102: 192026091
+      Sprites_103: 472681819
+      Sprites_104: 1059583605
+      Sprites_105: 1971084902
+      Sprites_106: -1833438033
+      Sprites_107: 1315100660
+      Sprites_108: 596771992
+      Sprites_109: 331851494
+      Sprites_110: -1528953639
+      Sprites_111: -1590351527
+      Sprites_112: 1114387103
+      Sprites_113: 1964492415
+      Sprites_114: 1808141124
+      Sprites_115: -1108302827
+      Sprites_116: -786263113
+      Sprites_117: 914797276
+      Sprites_12: 2008310125
+      Sprites_123: 1964100875
+      Sprites_124: 1783828399
+      Sprites_125: 1437407820
+      Sprites_126: 1665958711
+      Sprites_127: -776166414
+      Sprites_128: 1994181664
+      Sprites_129: 1663631758
+      Sprites_13: 1143658528
+      Sprites_130: -1352208964
+      Sprites_131: 626194330
+      Sprites_132: 2077744564
+      Sprites_133: -1525755353
+      Sprites_134: 1707908994
+      Sprites_135: -2096570342
+      Sprites_136: -1155364984
+      Sprites_137: -1317649933
+      Sprites_138: -1186714308
+      Sprites_139: -52763044
+      Sprites_14: -2076723627
+      Sprites_143: 1597077335
+      Sprites_145: 1446211825
+      Sprites_146: -1677932340
+      Sprites_147: -355930759
+      Sprites_148: 973587096
+      Sprites_149: 1813400463
+      Sprites_15: 7102126
+      Sprites_150: -307178508
+      Sprites_151: 1688243485
+      Sprites_152: 609709325
+      Sprites_153: -1313865982
+      Sprites_154: -1715123545
+      Sprites_155: 190433608
+      Sprites_156: 1425973492
+      Sprites_157: -244258311
+      Sprites_158: -1718319186
+      Sprites_159: 2096675850
+      Sprites_16: -1951713497
+      Sprites_160: 1291497758
+      Sprites_161: 101438768
+      Sprites_163: -121239511
+      Sprites_165: -2030310237
+      Sprites_166: -1059152359
+      Sprites_167: 1083704686
+      Sprites_168: -1293705678
+      Sprites_169: -1318887086
+      Sprites_17: 877607024
+      Sprites_170: 1282830111
+      Sprites_171: 265680112
+      Sprites_172: -92322115
+      Sprites_173: -1913263002
+      Sprites_174: 1630677944
+      Sprites_175: -1264556626
+      Sprites_176: 1587686198
+      Sprites_177: 559143503
+      Sprites_178: -257045348
+      Sprites_179: 1095920752
+      Sprites_18: -71513455
+      Sprites_181: 445329651
+      Sprites_182: -298966942
+      Sprites_183: -1880196521
+      Sprites_184: 895822899
+      Sprites_185: -993731902
+      Sprites_186: -1342324133
+      Sprites_187: -519684702
+      Sprites_188: -1817125369
+      Sprites_189: -1979372131
+      Sprites_19: 1116187643
+      Sprites_190: -975593311
+      Sprites_191: 307438221
+      Sprites_192: -42825710
+      Sprites_193: -921354599
+      Sprites_194: -1797497286
+      Sprites_195: 512674130
+      Sprites_196: 51920063
+      Sprites_197: 1355822850
+      Sprites_198: 399107402
+      Sprites_199: -345080853
+      Sprites_20: -883816343
+      Sprites_200: -537800851
+      Sprites_201: -31626862
+      Sprites_202: 2071536420
+      Sprites_203: 1558744612
+      Sprites_204: 118119927
+      Sprites_21: -137619215
+      Sprites_22: 417859722
+      Sprites_23: -1255444642
+      Sprites_24: 283887517
+      Sprites_25: 406146292
+      Sprites_26: -579667397
+      Sprites_27: 966976351
+      Sprites_28: 958402093
+      Sprites_29: 797301228
+      Sprites_30: 289332699
+      Sprites_31: -1214972729
+      Sprites_32: -747874004
+      Sprites_33: 1097178560
+      Sprites_34: -1949639626
+      Sprites_35: -1512684162
+      Sprites_36: 1800991196
+      Sprites_37: 345704117
+      Sprites_38: -1425230018
+      Sprites_39: 1571741060
+      Sprites_40: 957988512
+      Sprites_41: 1266378467
+      Sprites_42: 588944303
+      Sprites_43: -514970612
+      Sprites_44: -1837883885
+      Sprites_45: -52698790
+      Sprites_46: -1495154196
+      Sprites_47: 1830792310
+      Sprites_48: 1858291349
+      Sprites_49: -205231189
+      Sprites_50: -1717842735
+      Sprites_51: -2066873470
+      Sprites_52: -1026780849
+      Sprites_53: 1119118549
+      Sprites_54: 5988065
+      Sprites_55: -1095451769
+      Sprites_56: 262695465
+      Sprites_57: 458314370
+      Sprites_58: 736176406
+      Sprites_63: 1722852551
+      Sprites_67: -1454600638
+      Sprites_68: -496881276
+      Sprites_69: 12106036
+      Sprites_70: 1720211167
+      Sprites_71: 419024338
+      Sprites_72: -1336846565
+      Sprites_73: 1866037591
+      Sprites_74: -1629174252
+      Sprites_75: -788102601
+      Sprites_76: -107156467
+      Sprites_77: 805993055
+      Sprites_78: -1873273325
+      Sprites_79: -1130020118
+      Sprites_8: 509468683
+      Sprites_80: -1905839097
+      Sprites_81: 2119292234
+      Sprites_82: 1978647574
+      Sprites_83: -1073878554
+      Sprites_84: -1029846184
+      Sprites_85: 763018099
+      Sprites_86: 161856145
+      Sprites_87: 1731521851
+      Sprites_88: 1768486238
+      Sprites_9: 2118301348
+      Sprites_90: -2139028440
+      Sprites_91: 799309626
+      Sprites_92: 1712564512
+      Sprites_93: -862894680
+      Sprites_94: 2041175892
+      Sprites_95: -2036233371
+      Sprites_96: -1571946296
+      Sprites_97: 100082283
+      Sprites_98: -978334419
+      Sprites_99: 2058184729
+      Tent: 1604795599
+      Tree: 530366883
+      TreeBig: -1628165047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

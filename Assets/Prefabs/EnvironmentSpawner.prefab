@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7131456058258793225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995839401889345689}
+  - component: {fileID: 5189690770241701024}
+  m_Layer: 0
+  m_Name: EnvironmentSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &995839401889345689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7131456058258793225}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5189690770241701024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7131456058258793225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d2d0ada670a4fabbb2f7dc4c079179, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environmentGroups:
+  - {fileID: 8445504118048974220, guid: 523ca884dc79946b8bebc19f07ee7307, type: 3}
+  - {fileID: -4535959745119607141, guid: 4e2f257f60e4047dab90417ef1f5ebce, type: 3}
+  - {fileID: 6458019488415378383, guid: bd4bef744186e44b1b5ab793fc4e2774, type: 3}
+  - {fileID: 5192927505652464715, guid: c5fb45690f444455396faecbeced5f5b, type: 3}
+  - {fileID: 5192927505652464715, guid: 2832943b8d0454768a5a4ea20fe025c5, type: 3}
+  - {fileID: 5192927505652464715, guid: c95b729077597469b8884bec9c07b987, type: 3}
+  - {fileID: 5192927505652464715, guid: e23de1075bb6243cfa70a57d4c891ffd, type: 3}
+  cameraToFollow: {fileID: 0}
+  spawnDistance: 20
