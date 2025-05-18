@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
     [SerializeField] private float speedVariation = 0.5f;
     
     private Enemy _enemy;

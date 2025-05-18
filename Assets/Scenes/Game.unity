@@ -926,6 +926,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7286974097958792589, guid: 5ba4fc94ea6f140d794141b1cacd8fdb, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 93111fe56699f4d6c80b3ce9b29fee65, type: 3}
+    - target: {fileID: 7286974097958792589, guid: 5ba4fc94ea6f140d794141b1cacd8fdb, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 93111fe56699f4d6c80b3ce9b29fee65, type: 3}
+    - target: {fileID: 7286974097958792590, guid: 5ba4fc94ea6f140d794141b1cacd8fdb, type: 3}
+      propertyPath: levelStartOffset
+      value: 14.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7286974097958792591, guid: 5ba4fc94ea6f140d794141b1cacd8fdb, type: 3}
       propertyPath: m_Name
       value: MusicManager

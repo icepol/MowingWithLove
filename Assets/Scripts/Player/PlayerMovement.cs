@@ -1,5 +1,6 @@
 using pixelook;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -92,5 +93,10 @@ public class PlayerMovement : MonoBehaviour
         _isActive = false;
         
         _animator.SetBool("IsMoving", false);
+    }
+
+    public void OnPlayerWalkedStep()
+    {
+        EventManager.TriggerEvent(Events.PLAYER_WALKED_STEP);
     }
 }

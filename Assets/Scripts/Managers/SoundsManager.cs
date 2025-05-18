@@ -6,49 +6,40 @@ namespace pixelook
     {
         [SerializeField] private Transform targetTransform;
         
-        [SerializeField] private AudioClip directionChangedSound;
-        [SerializeField] private AudioClip playerHitFlagSound;
-        [SerializeField] private AudioClip playerPassedFlagsSound;
-        [SerializeField] private AudioClip playerDiedSound;
+        [SerializeField] private AudioClip playerWalkSound;
+        [SerializeField] private AudioClip playerFireSound;
+        
+        private AudioSource _audioSource;
 
+        private void Awake()
+        {
+            _audioSource = GetComponent<AudioSource>();
+            _audioSource.spatialBlend = 0;
+            _audioSource.bypassListenerEffects = true;
+        }
+        
         private void OnEnable()
         {
-            EventManager.AddListener(Events.DIRECTION_CHANGED, OnDirectionChanged);
-            EventManager.AddListener(Events.GAME_OVER, OnGameOver);
-            EventManager.AddListener(Events.FLAG_COLLISION, OnFlagCollision);
-            EventManager.AddListener(Events.FLAG_PASSED, OnFlagPassed);
+            EventManager.AddListener(Events.PLAYER_WALKED_STEP, OnPlayerWalkedStep);
+            EventManager.AddListener(Events.PLAYER_FIRED, OnPlayerFired);
         }
 
         private void OnDisable()
         {
-            EventManager.RemoveListener(Events.DIRECTION_CHANGED, OnDirectionChanged);
-            EventManager.RemoveListener(Events.GAME_OVER, OnGameOver);
-            EventManager.RemoveListener(Events.FLAG_COLLISION, OnFlagCollision);
-            EventManager.RemoveListener(Events.FLAG_PASSED, OnFlagPassed);
+            EventManager.RemoveListener(Events.PLAYER_WALKED_STEP, OnPlayerWalkedStep);
+            EventManager.RemoveListener(Events.PLAYER_FIRED, OnPlayerFired);
         }
         
-        private void OnDirectionChanged()
+        private void OnPlayerWalkedStep()
         {
-            if (directionChangedSound && Settings.IsSfxEnabled)
-                AudioSource.PlayClipAtPoint(directionChangedSound, targetTransform.position);
+            if (playerWalkSound && Settings.IsSfxEnabled)
+                _audioSource.PlayOneShot(playerWalkSound);
         }
         
-        private void OnFlagCollision()
+        private void OnPlayerFired()
         {
-            if (playerHitFlagSound && Settings.IsSfxEnabled)
-                AudioSource.PlayClipAtPoint(playerHitFlagSound, targetTransform.position);
-        }
-        
-        private void OnFlagPassed()
-        {
-            if (playerPassedFlagsSound && Settings.IsSfxEnabled)
-                AudioSource.PlayClipAtPoint(playerPassedFlagsSound, targetTransform.position);
-        }
-        
-        private void OnGameOver()
-        {
-            if (playerDiedSound && Settings.IsSfxEnabled)
-                AudioSource.PlayClipAtPoint(playerDiedSound, targetTransform.position);
+            if (playerFireSound && Settings.IsSfxEnabled)
+                _audioSource.PlayOneShot(playerFireSound);
         }
     }
 }
