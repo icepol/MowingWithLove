@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
         if (!_isActive) return;
         
         var enemy = other.GetComponent<Enemy>();
-        if (enemy == null) return;
+        if (!enemy) return;
         
         if (enemy.IsDying || enemy.IsDead) return;
 
@@ -101,7 +101,7 @@ public class Player : MonoBehaviour
             
             if (!wasDying)
             {
-                // hit next enemy only if first one is dying
+                // hit the next enemy only if the first one is dying
                 break;
             }
         }

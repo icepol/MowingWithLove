@@ -1186,6 +1186,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1224563536152301029, guid: 96f21648950744be8a8b893dab69512e, type: 3}
+      propertyPath: fireBackForce
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3644194618650204298, guid: 96f21648950744be8a8b893dab69512e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3

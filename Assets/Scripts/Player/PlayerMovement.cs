@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
+    [SerializeField] private float fireBackForce = 0.5f;
     
     public float CurrentSpeed => _isMoving ? speed * transform.localScale.x : 0f;
 
@@ -15,18 +16,21 @@ public class PlayerMovement : MonoBehaviour
     private Transform _playerTransform;
     
     private Animator _animator;
+    private Player _player;
     
     private Vector3 _lastPosition;
     
     private void Awake()
     {
         _animator = GetComponent<Animator>();
+        _player = GetComponent<Player>();
     }
 
     private void OnEnable()
     {
         EventManager.AddListener(Events.PLAYER_MOVED_LEFT, OnPlayerMovedLeft);
         EventManager.AddListener(Events.PLAYER_MOVED_RIGHT, OnPlayerMovedRight);
+        EventManager.AddListener(Events.PLAYER_FIRED, OnPlayerFired);
         EventManager.AddListener(Events.LEVEL_STARTED, OnLevelStarted);
         EventManager.AddListener(Events.PLAYER_DIED, OnPlayerDied);
     }
@@ -64,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
     {
         EventManager.RemoveListener(Events.PLAYER_MOVED_LEFT, OnPlayerMovedLeft);
         EventManager.RemoveListener(Events.PLAYER_MOVED_RIGHT, OnPlayerMovedRight);
+        EventManager.RemoveListener(Events.PLAYER_FIRED, OnPlayerFired);
         EventManager.RemoveListener(Events.LEVEL_STARTED, OnLevelStarted);
         EventManager.RemoveListener(Events.PLAYER_DIED, OnPlayerDied);
     }
@@ -93,6 +98,16 @@ public class PlayerMovement : MonoBehaviour
         _isActive = false;
         
         _animator.SetBool("IsMoving", false);
+    }
+
+    private void OnPlayerFired()
+    {
+        var positionAfterFire = _player.IsFacingRight ? Vector3.left * fireBackForce : Vector3.right * fireBackForce;
+        
+        transform.Translate(positionAfterFire);
+        
+        // update the position to avoid rotating towards the movement
+        _lastPosition = transform.position;
     }
 
     public void OnPlayerWalkedStep()
